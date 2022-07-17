@@ -17,19 +17,23 @@
 <body>
   
   
-  <section class="shop-location">
+  <section class="shop-location container">
     <ul class="shop-location__list">
       <li class="shop-location__item">
         <div class="shop-card">
-          <h4 class="shop-card__title">Cafe</h4>
+          <div class="shop-card__titlebox shop-card__titlebox-cafe">
+            <h4 class="shop-card__title">Cafe</h4>
+          </div>
           <h5 class="shop-card__city">Chicago</h5>
           <span class="shop-card__description">Fusce ut velit laoreet, tempus arcu molestie vulputate</span>
-          <span class="shop-card__workdays">Monday - Friday</span>
-          <span class="shop-card__workhours">06:00 AM - 10:00 PM</span>
-          <span class="shop-card__workdays">Saturday - Sunday</span>
-          <span class="shop-card__workhours">08:00 AM - 16:00 PM</span>
+          <div class="shop-card__worktime">
+            <span class="shop-card__workdays">Monday - Friday</span>
+            <span class="shop-card__workhours">06:00 AM - 10:00 PM</span>
+            <span class="shop-card__workdays">Saturday - Sunday</span>
+            <span class="shop-card__workhours">08:00 AM - 16:00 PM</span>
+          </div>
           <ul class="shop-contacts">
-            <li class="shop-contacts__item"><a class="shop-contacts__link" href="tel:+61(0)383766284">+61(0)383766284</a>
+            <li class="shop-contacts__item"><a class="shop-contacts__link" href="tel:+61(0)383766284">+61(0) 383 766 284</a>
             </li>
             <li class="shop-contacts__item"><a class="shop-contacts__link" href="mailto:noreply@envato.com">noreply@envato.com</a>
             </li>
@@ -38,32 +42,40 @@
       </li>
       <li class="shop-location__item">
         <div class="shop-card">
-          <h4 class="shop-card__title">Foodtruck</h4>
+          <div class="shop-card__titlebox shop-card__titlebox-foodtruck">
+            <h4 class="shop-card__title">Foodtruck</h4>
+          </div>
           <h5 class="shop-card__city">Los Angeles</h5>
           <span class="shop-card__description">Fusce ut velit laoreet, tempus arcu molestie vulputate</span>
-          <span class="shop-card__workdays">Monday - Friday</span>
-          <span class="shop-card__workhours">06:00 AM - 10:00 PM</span>
-          <span class="shop-card__workdays">Saturday - Sunday</span>
-          <span class="shop-card__workhours">08:00 AM - 16:00 PM</span>
+          <div class="shop-card__worktime">
+            <span class="shop-card__workdays">Monday - Friday</span>
+            <span class="shop-card__workhours">06:00 AM - 10:00 PM</span>
+            <span class="shop-card__workdays">Saturday - Sunday</span>
+            <span class="shop-card__workhours">08:00 AM - 16:00 PM</span>
+          </div>
             <ul class="shop-contacts">
-            <li class="shop-contacts__item"><a class="shop-contacts__link" href="tel:+61(0)383766284">+61(0)383766284</a>
-            </li>
-            <li class="shop-contacts__item"><a class="shop-contacts__link" href="mailto:noreply@envato.com">noreply@envato.com</a>
-            </li>
-          </ul>
+              <li class="shop-contacts__item"><a class="shop-contacts__link" href="tel:+61(0)383766284">+61(0) 383 766 284</a>
+              </li>
+              <li class="shop-contacts__item"><a class="shop-contacts__link" href="mailto:noreply@envato.com">noreply@envato.com</a>
+              </li>
+            </ul>
         </div>
       </li>
       <li class="shop-location__item">
         <div class="shop-card">
-          <h4 class="shop-card__title">Cafe</h4>
+          <div class="shop-card__titlebox shop-card__titlebox-cafe">
+            <h4 class="shop-card__title">Cafe</h4>
+          </div>
           <h5 class="shop-card__city">New York</h5>
           <span class="shop-card__description">Fusce ut velit laoreet, tempus arcu molestie vulputate</span>
-          <span class="shop-card__workdays">Monday - Friday</span>
-          <span class="shop-card__workhours">06:00 AM - 10:00 PM</span>
-          <span class="shop-card__workdays">Saturday - Sunday</span>
-          <span class="shop-card__workhours">08:00 AM - 16:00 PM</span>
+          <div class="shop-card__worktime">
+            <span class="shop-card__workdays">Monday - Friday</span>
+            <span class="shop-card__workhours">06:00 AM - 10:00 PM</span>
+            <span class="shop-card__workdays">Saturday - Sunday</span>
+            <span class="shop-card__workhours">08:00 AM - 16:00 PM</span>
+          </div>
           <ul class="shop-contacts">
-            <li class="shop-contacts__item"><a class="shop-contacts__link" href="tel:+61(0)383766284">+61(0)383766284</a>
+            <li class="shop-contacts__item"><a class="shop-contacts__link" href="tel:+61(0)383766284">+61(0) 383 766 284</a>
             </li>
             <li class="shop-contacts__item"><a class="shop-contacts__link" href="mailto:noreply@envato.com">noreply@envato.com</a>
             </li>
@@ -71,6 +83,15 @@
         </div>
       </li>
     </ul>
+  </section>
+  <section class="location-buttons">
+    <div class="locbuttons__container">
+      <button type="submit" class="button__location--purple">Our locations
+          <svg class="button__icon--arrow" width="100%" height="100%">
+              <use href="./img/icons/arrow1.svg#icon-arrow"></use>
+          </svg>
+      </button>
+  </div>
   </section>
   <!-- Project -->
   <script src="main.js"></script>

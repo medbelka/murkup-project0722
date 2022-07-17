@@ -1,0 +1,166 @@
+:root {
+    font-family: 'DM Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+*::before,
+::after {
+    box-sizing: inherit;
+}
+  
+a {
+    text-decoration: none;
+}
+  
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+h1,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+}
+
+/* .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+  @media screen and (min-width: 480px) {
+        max-width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+        max-width: 768px;
+  }
+
+  @media screen and (min-width: 1600px) {
+        max-width: 1230px;
+  }
+} */
+
+.shop-card {
+    margin: 20px;
+    padding: 40px 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;
+}
+
+.shop-card__titlebox {
+    padding: 2px 24px;
+    display: inline-block;
+    background: #F0D1A5;
+    border-radius: 4px;
+    align-items: center;
+    text-align: center;
+}
+
+.shop-card__titlebox-cafe {
+    background: #F0D1A5;
+}
+
+.shop-card__titlebox-foodtruck {
+    background: #C2E297;
+}
+
+.shop-card__title {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.shop-card__city {
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.86;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.shop-card__description {
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom: 24px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #907E82;
+}
+
+.shop-card__worktime {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-top: 1px solid #E1E1E1;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.shop-card__workdays {
+    display: block;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.86;
+    color: #000000;
+}
+
+.shop-card__workhours {
+    display: block;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.86;
+    color: #FFA5BA;
+}
+
+.shop-contacts {
+    display: block;
+    padding-top: 24px;
+}
+
+.shop-contacts__link {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #907E82;
+}
+
+.shop-contacts__link:hover,
+.shop-contacts__link:focus {
+    color: #D41443;
+}
+
+.location-buttons {
+    margin: 0 auto;
+    display: inline-block;
+    align-items: center;
+
+}
+
+.button__location--purple {
+    padding: 15px 17px;
+    font-weight: 700;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #D41342;
+    border-radius: 22px;
+    border: none;
+}
+
+.button__icon--arrow {
+    display: inline-block;
+}
